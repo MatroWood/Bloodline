@@ -1,0 +1,692 @@
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: "Montserrat" ,sans-serif;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+       url(font/Montserrat/static/Montserrat-SemiBold.ttf) format("woff");
+    font-family: "Inter";
+    src: 
+        url(font/Inter/Inter-VariableFont_opsz,wght.ttf) format("woff");
+}
+
+.navfoto {
+    width: 110px;
+    height: 75px;
+}
+
+.haderer {
+    background-color: black;
+    width: 100%;
+    height: 225px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    line-height: 25px;
+    margin: 200px 0;
+    text-align: center;
+}
+
+.haderer h3 {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.haderer h1 {
+    font-size: 75px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.haderer h2 {
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.haderer p {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    color: #ECD400;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.haderer h1 .sp1 {
+    color: #CD00CD;
+}
+
+.haderer h1 .sp2 {
+    color: #9A009A;
+}
+
+.haderer h2 .sp3 {
+    color: #FF0000;
+}
+
+.fon {
+    background-image: url(gallery/Главная/Скрин1.png);
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.textfon {
+    width: 100%;
+    height: 600px;
+    padding: 200px 200px;
+}
+
+.textfon h1 {
+    font-size: 42px;
+    color: #E700E7;
+    font-family: "Montserrat", sans-serif;
+    filter: brightness(100%)
+}
+
+.textfon .bl{
+    font-weight: bold;
+    color: white;
+}
+
+.raz {
+    width: 100%;
+    height: 200px;
+    padding: 100px 0;
+}
+
+.bl {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.sp1 {
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+}
+
+.prich1 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    column-gap: 50px;
+} 
+
+.prich1 img {
+    width: 550px;
+    height: 325px;
+    margin: 0 50px;
+}
+
+.prich1 p {
+    white-space: pre;
+    color: white;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.raxs {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.prich2 {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    column-gap: 50px;
+    justify-content: right;
+    margin: 0 -100px;
+} 
+
+.prich2 img {
+    width: 550px;
+    height: 325px;
+}
+
+.prich2 p {
+    white-space: pre;
+    color: white;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.forum {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    padding: 100px 0;
+} 
+.forum h1 {
+    color: white;
+    font-size: 50px;
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.forum img {
+    width: 400px;
+    height: 400px;
+}
+
+.forum h1 a {
+    color: white;
+} 
+
+
+.hed {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    margin: 112px 0;
+    font-family: "Inter", sans-serif;;
+}
+
+.hed h1 {
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    margin: -70px 0;
+    font-family: 'Inter';
+}
+
+.b11 {
+    color: #BD0082;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.b22 {
+    color: #7E0057;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.list {
+    width: 100%;
+    height: 500px;
+    background-color: #232323;
+    display: grid;
+    justify-content: center;
+}
+
+.list h1 {
+    font-size: 60px;
+    color: white;
+    font-family: "Inter";
+    margin: 50px 0;
+}
+
+.list ul {
+    color: white;
+    margin: -175px 0;
+    font-size: 34px;
+    line-height: 60px;  
+}
+
+.sul {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.navfoto2 {
+    width: 220px;
+    height: 220px;
+    margin: -30px 0;
+}
+
+.prhed {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    margin: 112px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.prhed h1{
+    color: white;
+    text-align: left;
+    font-size: 100px;
+    margin: -140px 0;
+    font-family: 'Inter';
+}
+
+.prlist {
+    width: 100%;
+    height: 600px;
+    background-color: #232323;
+    display: grid;
+    justify-content: center;
+}
+
+.prlist ul {
+    list-style-type: none;
+    margin: 150px 0;
+}
+
+.prli {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    line-height: 100px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.obzhed {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    margin: 112px 0;
+    font-family: "Inter", sans-serif;
+}
+
+.obzhed h1 {
+    color: white;
+    text-align: left;
+    font-size: 100px;
+    margin: -140px 0;
+    font-family: 'Inter';
+}
+
+.osnor {
+    background-color: #232323;
+    height: 2400px;
+}
+
+.osnor h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.osnor ol li {
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 20px;
+}
+
+.osnor ul li {
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 20px;
+}
+
+.osnor p {
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 20px;
+}
+
+.ins {
+    font-style: italic;
+}
+
+.zamhed {
+    background-color: #171717;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    column-gap: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.zamhed h1 {
+    color: white;
+    font-size: 60px;
+    white-space: pre;
+}
+
+.zamhed img {
+    width: 438px;
+    height: 438px;
+}
+
+.polnom {
+    background-color: #171717;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    column-gap: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.polnom h1 {
+    color: white;
+    font-size: 60px;
+    white-space: pre;
+}
+
+.polnom img {
+    width: 438px;
+    height: 438px;
+}
+
+.polno1 {
+    background-color: #232323;
+    height: 2600px;
+    width: 100%;
+}
+
+.polno1 h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+}
+
+.nenums {
+    list-style-type: circle;
+}
+
+.polno1 h2 {
+    color: white;
+    margin: 0 10px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.nenums {
+    color: white;
+    margin: 0 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px 0;
+}
+
+.provod {
+    height: 700px;
+}
+
+.pr {
+    color: #d1d1d1;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.provod section {
+    margin: 150px 0;
+}
+
+.zayahed {
+    width: 100%;
+    background-color: #DEBB00;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    margin: 0 0;
+    font-family: "Inter", sans-serif;;
+}
+
+.zayahed h1 {
+    color: black;
+    text-align: left;
+    font-size: 60px;
+    margin: 130px 0;
+    font-family: 'Inter';
+    white-space: pre;
+}
+
+.zayahed img {
+    height: 350px;
+    width: 700px;
+    margin: 130px 0;
+}
+
+.teb {
+    color: black;
+    background-color: #DEBB00;
+    font-family: 'Inter';
+    font-size: 20px;
+    height: 1000px;
+    width: 100%;
+}
+
+.gl {
+    font-size: 40px;
+    margin: 0 30px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.vtorost {
+    margin: 40px 0; 
+}
+
+.formaz h2 a{
+    font-size: 50px;
+    font-family: 'Inter';
+    color: black;
+    text-decoration: none;
+    margin: 40px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btnzav:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.mainy {
+background: hsla(68, 0%, 84%, 1.0);
+background: linear-gradient(180deg, hsla(68, 0%, 84%, 1.0), hsla(148, 0%, 100%, 1.0));
+}
+
+.report {
+    color: black;
+    height: 400px;
+    font-family: 'Inter';
+    padding: 0 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.pravils {
+    width: 100%;
+    height: 500px;
+    font-family: 'Inter';
+}
+
+.pravils h2 {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.pravils ul {
+    font-size: 20px;
+}
+
+.knopka {
+    font-size: 50px;
+    margin: 0 20px;
+    color: black;
+    margin: 50px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.knopka:hover {
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    background-color: #121212;
+    height: 20px;
+    display: flex;
+    justify-content: left;
+    padding: 75px 0;
+    color: #FFFFFF;
+}
+
+.footer p {
+    font-size: 25px;
+    margin: 0 20px;
+    font-family: 'Inter';
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;   
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    margin: 5px 0;
+}
+
+.fbot {
+    text-decoration: none;
+    color: black;
+    background-color: #b5a300;
+    font-family: 'Inter';
+    padding: 20px;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 200px;
+    border-radius: 10%;
+}
+
+.btnmenu:hover {
+    background-color: #262626;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.btnmenuimg:hover {
+    background-color: #940101;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.glavfor:hover {
+    text-decoration: underline;
+    color: #cfbf36;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+} 
+
+.fbot:hover {
+    background-color: #9e8e02;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.footertext:hover {
+    color: #61ccfa;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.sul:hover {
+    cursor: pointer;
+    color: #c7c7c7;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prli:hover {
+    cursor: pointer;
+    color: #c7c7c7;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pr:hover {
+    text-decoration: underline;
+}
+
+.zayava {
+    background: #727272;
+    background: linear-gradient(315deg, #727272, #FFFFFF);
+}
